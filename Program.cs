@@ -40,7 +40,6 @@ string [] SortLength (string [] arr)
 }
 
 string[] array = GetArray();
-//PrintArray(array);
 string [] newArray = SortLength(array);
 Console.WriteLine ("Элементы массива, длина строк которых меньше или равна 3: ");
 PrintArray(newArray);
